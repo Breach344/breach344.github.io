@@ -1,136 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="img/personal-logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="personal.css" />
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8890726488572393"
-      crossorigin="anonymous"
-    ></script>
-    <title>Sean Longendyke</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <header>
-      <nav id="nav-bar">
-        <p id="mission-nav"><a href="#mission">Mission</a></p>
-        <p id="skills-nav"><a href="#skills">Skills</a></p>
-        <p id="certifications-nav">
-          <a href="#certifications">Certifications</a>
-        </p>
-        <p id="portfolio-nav"><a href="#portfolio">Portfolio</a></p>
-        <p id="footer-nav"><a href="#contact">Contact</a></p>
-      </nav>
-    </header>
+<head>
+  <title>Sean Longendyke</title>
+  <link href="personal.css" rel="stylesheet" />
+  <link
+    href="https://images.assetsdelivery.com/compings_v2/mdranahamid/mdranahamid2101/mdranahamid210100334.jpg"
+    rel="icon"
+  />
+</head>
 
-    <h1 id="name">Sean Longendyke</h1>
-    <h2 id="thanks">Thank you for visiting</h2>
+<header>
+  <ul id="header-links">
+    <a href="#top"><li>Home</li></a>
+    <a href="#about"><li>About</li></a>
+    <a href="#portfolio"><li>Portfolio</li></a>
+    <a href="#contact"><li>Contact</li></a>
+  </ul>
+</header>
 
-    <p id="mission">
-      Welcome to my website! I am an independent web developer experienced in
-      developmental technologies such as HTML, CSS, Javascript, PHP, React, and
-      Nodejs along with helpful side tools such as Adobe Photoshop. Currently
-      I'm exploring opportunities within companies where I can learn from other
-      professionals and develop new skills for the job. If you're interested in
-      reaching out or want to see some of my past work don't hesitate to send me
-      a message at
-      <a href="https://www.linkedin.com/in/sean-longendyke/">linkedin.com</a> or
-      an <a href="mailto:seanalongendyke@gmail.com"> email</a>.
+<body>
+  <div id="intro-wrap">
+    <h1 id="hello">
+      Hello I'm
+      <span id="me" style="color: red">Sean</span>. A full stack web developer.
+    </h1>
+    <h1 id="intro">Welcome to my website!</h1>
+    <div id="light-wrap">
+      <div id="light"></div>
+      <div id="light2"></div>
+      <div id="light3"></div>
+      <div id="light4"></div>
+    </div>
+  </div>
+
+  <h2 id="about">About</h2>
+  <p id="description">
+    I'm mainly a front end web developer with a passion for all things coding.
+    I've made worked on the front and back end of of websites, made helpful web
+    tools, and worked on video games. I have the most fun when I'm learning
+    something new and creating solutions. I'm experienced in dynamic web pages
+    with my primary focus on fast loading times, responsive design, and
+    intuitive UI for the ultimate user experience. If you want to see more of my
+    work or have any questions just
+    <a href="mailto:seanalongendyke@gmail.com">reach out!</a>
+  </p>
+  <ul id="skills">
+    <h2>Skills</h2>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Node.js</li>
+    <li>Express</li>
+    <li>PHP</li>
+    <li>SQL</li>
+    <li>Adobe Photoshop</li>
+    <li>Git</li>
+    <li>API's</li>
+  </ul>
+
+  <h2 id="portfolio">Portfolio</h2>
+
+  <div id="project-1">
+    <h2>Node.js Login Sales Site</h2>
+    <p>
+      Example of a potential sales website. Uses the Passport.js middleware with
+      cookies to register, login, and if you're logged in to enable you to add
+      items to your cart which will automatically update your total. The focus
+      when building this project was on the main webpages layout and to to
+      experiment with this middleware.
     </p>
+  </div>
 
-    <ul id="skills">
-      <h2>Skills</h2>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>Node.js</li>
-      <li>Express</li>
-      <li>Adobe Photoshop</li>
-      <li>GitHub</li>
-      <li>API's</li>
-      <li>PHP</li>
-    </ul>
+  <a href="https://github.com/Breach344/Nodejs-Sales-Site" target="_blank">
+    <img
+      id="img-1"
+      src="img/sales-page.png"
+      alt="Project Image"
+      class="project-image"
+    />
+  </a>
 
-    <ul id="certifications">
-      <h2>Certificates</h2>
-      <li>
-        <a
-          href="https://www.freecodecamp.org/certification/breach344/responsive-web-design"
-          target="_blank"
-          >Responsive Web Design</a
-        ><br />Freecodecamp
-      </li>
-      <li>
-        <a
-          href="https://www.freecodecamp.org/certification/breach344/javascript-algorithms-and-data-structures"
-          target="_blank"
-          >Javascript Algorithms and Data Structures</a
-        ><br />Freecodecamp
-      </li>
-      <li>
-        <a
-          href="https://www.freecodecamp.org/certification/breach344/front-end-development-libraries"
-          target="_blank"
-          >Front End Development Libraries</a
-        ><br />Freecodecamp
-      </li>
-    </ul>
+  <div id="project-2">
+    <h2>PHP Database CMS</h2>
+    <p>
+      A content management system to allow the owner of a website to do a
+      variety of things from posting news, blog posts, updating an event
+      calendar, or can be restructured into a messenger application. It does
+      this by adding, deleting, and changing things in a database so when you
+      pull data it shows whatever the website owner changed it to. The login is
+      stored within the session and will give you access to the admin pages only
+      if you are logged in as a real user from the database. The input info is
+      sanitized and passwords are also encrypted before being saved in the
+      database for security purposes.
+    </p>
+  </div>
 
-    <section id="portfolio">
-      <a href="https://github.com/Breach344/Nodejs-Sales-Site" target="_blank">
-        <img src="img/sales-page.png" alt="Project picture" />
-        <p id="project-one">Nodejs Login Sales Site</p>
-      </a>
+  <a href="https://github.com/Breach344/CMS" target="_blank">
+    <img
+      id="img-2"
+      src="img/calendar.png"
+      alt="Project Image"
+      class="project-image"
+    />
+  </a>
 
-      <a href="https://github.com/Breach344/CMS" target="_blank">
-        <img src="img/calendar.png" alt="Project picture" />
-        <p id="project-two">PHP Database CMS</p>
-      </a>
+  <div id="project-3">
+    <h2>Pokemon Red/Blue Dex</h2>
+    <p>
+      A Pokedex is a tool used to search for a Pokemon and tell you information
+      about it. It is designed to look similar to the ones in the show and I'm
+      pretty proud of how it came out appearance wise. These days I would save
+      the Pokemon's info in a database and make it make it responsive for
+      whatever device someone is looking at it on but for this the Pokemon info
+      is saved as a Javascript object and when a Pokemon is selected it changes
+      the text info to the corresponding information. For further improvements I
+      would also make one function for all data changes to cut down on the code.
+      I chose not to use some preexisting API's because I wanted to use the
+      older game designs and I noticed errors on the API's I was looking at.
+    </p>
+  </div>
 
-      <a href="https://codepen.io/Roman344/full/eYemLQx" target="_blank">
-        <img src="img/pokedex.png" alt="Project picture" />
-        <p id="project-two">Pokemon Red/Blue Dex</p>
-      </a>
+  <a href="https://codepen.io/Roman344/full/eYemLQx" target="_blank">
+    <img
+      id="img-3"
+      src="img/pokedex.png"
+      alt="Project Image"
+      class="project-image"
+    />
+  </a>
 
-      <a href="https://github.com/Breach344/FGO-Duel" target="_blank">
-        <img src="img/fgo.png" alt="Project picture" />
-        <p id="project-two">Fgo Duel(Video Game)</p>
-      </a>
+  <div id="project-4">
+    <h2>Text/Image Translator</h2>
+    <p>
+      Sometimes when you need a solution it doesnt have to be complicated and
+      time consuming. By using Google Translate and the Google Vision API
+      together you can take a picture of writing and translate it to another
+      language. I built this pretty quickly because it was a real world problem
+      that needed solving for me personally and I use it all the time. If you
+      look on the app store there are a number of apps that do this that
+      typically require you to spend money to use.
+    </p>
+  </div>
 
-      <a href="https://codepen.io/Roman344/full/RwjGvdz" target="_blank">
-        <img src="img/translate.png" alt="Project picture" />
-        <p id="project-two">Image/Text Translator</p>
-      </a>
+  <a href="https://codepen.io/Roman344/full/RwjGvdz" target="_blank">
+    <img
+      id="img-4"
+      src="img/translate.png"
+      alt="Project Image"
+      class="project-image"
+    />
+  </a>
 
-      <div id="spacer">i</div>
-    </section>
+  <div id="project-5">
+    <h2>FGO Duel(Video Game)</h2>
+    <p>
+      If you don't know the rules they're on the
+      <a href="https://duel.fate-go.us/how_to_play/">official site</a>. It's
+      still a work in progress but I wanted to show off what I'm working on.
+      When you make an action it checks many variables before deciding what to
+      do. Your pieces on the board are assigned individual classes that get
+      removed and added from the tiles when you move in order to keep track of
+      their locations. The turn phases are done with a number counter that
+      changes based on your actions. Only certain actions are allowed for each
+      phase(only when the turn counter variable is at certain values). Each card
+      has an individual id to identify its type, power, and game piece. If all
+      cards used in battle have a type in common they create a chain with
+      varying abilities that could last several turns which I did by using
+      variables that tick down counters when turns end. When a unit attempts to
+      land on a space with an enemy class on it then it will start the battle
+      function where it checks for card power, card chains, and the counter
+      variables to see who wins. All the functionality is worked out and tested.
+      There is just data entry, optimizing/organizing the code, and styling to
+      finish.
+    </p>
+  </div>
 
-    <footer>
-      <p id="to-top"><a href="#nav-bar">To Top Of Page</a></p>
-      <p id="contact">
-        Contact Me:
-        <a href="mailto:seanalongendyke@gmail.com">
-          seanalongendyke@gmail.com</a
-        >
-      </p>
-      <p id="codepen-p">
-        If you want to see some of my code snippets I'm working on something new
-        every day on
-        <a href="https://codepen.io/Roman344" target="_blank">CodePen</a>
-      </p>
-    </footer>
-  </body>
-</html>
+  <a href="https://github.com/Breach344/FGO-Duel" target="_blank">
+    <img
+      id="img-5"
+      src="img/fgo.png"
+      alt="Project Image"
+      class="project-image"
+    />
+  </a>
+</body>
+
+<footer>
+  <div id="contact">
+    <a href="#top" id="to-top">To top</a>
+    <p id="linked-link">
+      Contact me with email or through
+      <a href="https://www.linkedin.com/in/sean-longendyke/">linkedin.com</a>
+    </p>
+    <p id="code-hub">
+      If you want to see more of my code snippets I'm working on something new
+      every day on <a href="https://codepen.io/Roman344">Codepen</a> or
+      <a href="https://github.com/Breach344">Github</a>
+    </p>
+  </div>
+</footer>
