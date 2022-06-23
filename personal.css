@@ -224,7 +224,7 @@ footer {
   width: 100%;
   height: 5.6em;
   position: relative;
-  top: 545%;
+  top: 550%;
 }
 
 #to-top {
@@ -457,4 +457,239 @@ footer {
     left: 15vw;
     top: 0%;
   }
+}
+
+@media all and (max-width: 1200px) {
+footer {
+  top: 580%;
+}
+}
+
+@media all and (max-width: 910px) {
+#portfolio {
+top: 115%;
+}
+
+#project-1 {
+  top: 255%;
+}
+
+#img-1 {
+  top: 245%;
+}
+
+#project-2 {
+  top: 325%;
+}
+#img-2 {
+  top: 330%;
+}
+
+#project-3 {
+  top: 410%;
+}
+
+#img-3 {
+top: 420%;
+}
+
+#project-4 {
+  top: 515%;
+}
+
+#img-4 {
+  top: 515%;
+}
+
+#project-5 {
+  top: 600%;
+}
+
+#img-5 {
+  top: 610%;
+}
+
+footer {
+  top: 630%;
+}
+}
+
+@media all and (max-width: 800px) {
+  footer {
+    top: 645%;
+}
+}
+
+@media all and (max-width: 750px) {
+#header-links {
+  right: -5%;
+}
+
+  #portfolio {
+  top: 125%;
+}
+
+#project-1 {
+  top: 265%;
+  width: 45%;
+  right: 2%;
+}
+
+#img-1 {
+  top: 265%;
+  width: 45%;
+  left: 2%;
+}
+
+#project-2 {
+  top: 345%;
+  width: 45%;
+  left: 2%;
+}
+
+#img-2 {
+  top: 355%;
+  width: 45%;
+  right: 2%;
+}
+
+#project-3 {
+  top: 445%;
+  width: 45%;
+  right: 2%;
+}
+
+#img-3 {
+  top: 455%;
+  width: 45%;
+  left: 2%;
+}
+
+#project-4 {
+  top: 560%;
+  width: 45%;
+  left: 2%;
+}
+
+#img-4 {
+  top: 575%;
+  width: 45%;
+  right: 2%;
+}
+
+#project-5 {
+  top: 650%;
+  width: 45%;
+  right: 2%;
+}
+
+#img-5 {
+  top: 660%;
+  width: 45%;
+  left: 2%;
+}
+
+footer {
+  top: 710%;
+}
+}
+
+@media all and (max-width: 650px) {
+  #portfolio {
+    top: 155%;
+}
+
+#project-1 {
+  top: 300%;
+}
+
+#img-1 {
+top: 310%;
+}
+
+#project-2 {
+  top: 385%;
+}
+
+#img-2 {
+  top: 395%;
+}
+
+#project-3 {
+  top: 500%;
+}
+
+#img-3 {
+  top: 510%;
+}
+
+#project-4 {
+  top: 630%;
+}
+
+#img-4 {
+  top: 640%;
+}
+
+#project-5 {
+  top: 730%;
+}
+
+#img-5 {
+  top: 750%;
+}
+
+footer {
+  top: 800%;
+}
+}
+
+@media all and (max-width: 550px) {
+  #portfolio {
+   top: 180%;
+  }
+
+  #project-1 {
+    top: 340%;
+  }
+
+  #img-1 {
+    top: 350%;
+  }
+
+#project-2 {
+  top: 440%;
+}
+
+#img-2 {
+  top: 450%;
+}
+
+#project-3 {
+  top: 580%;
+}
+
+#img-3 {
+  top: 590%;
+}
+
+#project-4 {
+  top: 730%;
+}
+
+#img-4 {
+  top: 740%;
+}
+
+#project-5 {
+  top: 850%;
+}
+
+#img-5 {
+  top: 860%;
+}
+
+  footer {
+    top: 955%;
+}
 }
