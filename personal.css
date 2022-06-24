@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   height: 4em;
   background-color: rgba(40,40,40,0.95);
   border-bottom: 1px solid #1a1a1a;
@@ -222,7 +222,7 @@ header {
 
 footer {
   background-color: #212f3c;
-  width: 100%;
+  width: 100vw;
   height: 5.6em;
   position: relative;
   top: 550%;
