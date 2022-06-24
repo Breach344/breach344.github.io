@@ -694,7 +694,7 @@ footer {
 }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 380px) {
   header {
     height: 8em;
   }
