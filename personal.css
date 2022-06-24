@@ -704,8 +704,8 @@ footer {
     top: 5%;
   }
 
-#description {
-  left: 2%;
+  #description {
+   left: 2%;
 }
 
   #skills {
@@ -747,14 +747,15 @@ footer {
   }
 
   #project-5 {
-    top: 1020%;
+    top: 1050%;
   }
 
   #img-5 {
-    top: 1040%;
+    top: 1065%;
   }
 
   footer {
-    top: 1200%;
+    top: 1240%;
+    height: 6.5em;
   }
 }
