@@ -697,9 +697,10 @@ footer {
 
 @media all and (max-width: 380px) {
   #about {
-    top: 10%;
+    top: 5%;
   }
   #skills {
-    right: 3%;
+    right: 1%;
+    top: 140%;
   }
 }
