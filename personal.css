@@ -4,7 +4,6 @@
 
 body {
   background-color: grey;
-  overflow-x: hidden;
 }
 
 header {
@@ -16,7 +15,6 @@ header {
   z-index: 1;
   backdrop-filter: blur(5px);
   border-bottom: 1px solid #1a1a1a;
-  overflow-x: hidden;
 }
 
 #header-links {
@@ -227,7 +225,6 @@ footer {
   height: 5.6em;
   position: relative;
   top: 550%;
-  overflow-x: hidden;
 }
 
 #to-top {
