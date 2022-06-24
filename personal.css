@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  background-color: green;
+  background-color: gray;
   overflow-x: hidden;
 }
 
@@ -692,10 +692,6 @@ footer {
 footer {
   top: 955%;
 }
-
-body {
-  background-color: blue;
-}
 }
 
 @media all and (max-width: 380px) {
@@ -814,5 +810,9 @@ body {
 #footer {
   top: 790%;
   height: 12em;
+}
+
+body {
+  background-color: blue;
 }
 }
