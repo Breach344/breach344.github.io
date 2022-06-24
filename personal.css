@@ -701,7 +701,7 @@ footer {
   }
 
 #description {
-  left: 1%;
+  left: 2%;
 }
 
   #skills {
@@ -715,14 +715,14 @@ footer {
   }
 
   #header-links > a > li {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   #project-2 {
-    top: 335%;
+    top: 450%;
   }
 
   #img-2 {
-    top: 320%;
+    top: 460%;
   }
 }
