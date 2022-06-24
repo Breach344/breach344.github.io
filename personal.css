@@ -82,7 +82,7 @@ header {
 #about {
   text-decoration: underline;
   text-align: center;
-  font-size: 48px;
+  font-size: 60px;
   position: relative;
   top: 15%;
 }
@@ -90,7 +90,7 @@ header {
 #description {
   position: absolute;
   left: 5%;
-  width: 40%;
+  width: 45%;
   top: 140%;
   font-size: 22px;
 }
@@ -110,7 +110,7 @@ header {
 #portfolio {
   text-decoration: underline;
   text-align: center;
-  font-size: 48px;
+  font-size: 60px;
   position: relative;
   top: 95%;
 }
