@@ -709,4 +709,20 @@ footer {
     top: 140%;
     list-style: none;
   }
+
+  #header-links {
+    grid-column-gap: 1em;
+  }
+
+  #header-links > a > li {
+    font-size: 1em;
+  }
+
+  #project-2 {
+    top: 335%;
+  }
+
+  #img-2 {
+    top: 320%;
+  }
 }
