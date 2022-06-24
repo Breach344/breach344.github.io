@@ -699,8 +699,14 @@ footer {
   #about {
     top: 5%;
   }
+
+#description {
+  left: 1%;
+}
+
   #skills {
     right: 1%;
     top: 140%;
+    list-style: none;
   }
 }
