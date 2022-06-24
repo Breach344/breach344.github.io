@@ -696,6 +696,10 @@ footer {
 }
 
 @media all and (max-width: 380px) {
+ #header-links {
+   top: 0.85em;
+}
+
   #about {
     top: 5%;
   }
@@ -711,7 +715,7 @@ footer {
   }
 
   #header-links {
-    grid-column-gap: 1em;
+    grid-column-gap: 0.9em;
   }
 
   #header-links > a > li {
