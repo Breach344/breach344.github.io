@@ -227,6 +227,7 @@ footer {
   height: 5.6em;
   position: relative;
   top: 550%;
+  overflow-x: hidden;
 }
 
 #to-top {
