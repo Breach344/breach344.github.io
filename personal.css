@@ -735,18 +735,22 @@ footer {
   }
 
   #project-4 {
-    top: 860%;
+    top: 880%;
   }
 
   #img-4 {
-    top: 870%;
+    top: 890%;
   }
 
   #project-5 {
-    top: 970%;
+    top: 1000%;
   }
 
   #img-5 {
-    top: 980%;
+    top: 1020%;
+  }
+
+  footer {
+    top: 1100%;
   }
 }
