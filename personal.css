@@ -693,3 +693,123 @@ footer {
     top: 955%;
 }
 }
+
+@media all and (max-width: 360px) {
+  header {
+    height: 8em;
+  }
+
+  #header-links > a > li {
+    font-size: 4em;
+  }
+
+  #hello {
+    font-size: 70px;
+  }
+
+  #intro {
+    font-size: 70px;
+  }
+
+  #about {
+    font-size: 70px;
+  }
+
+  #description {
+    font-size: 44px;
+  }
+
+  #skills > h2 {
+    font-size: 70px;
+  }
+
+  #skills {
+    font-size: 44px;
+  }
+
+  #portfolio {
+    font-size: 70px;
+  }
+
+  #project-1 {
+    top: 330%;
+  }
+
+  #project-1 > h2 {
+    font-size: 38px;
+  }
+
+  #project-1 > p {
+    font-size: 20px;
+  }
+
+  #project-2 {
+    top: 400%;
+  }
+
+  #img-2 {
+    top: 380%;
+  }
+
+  #project-2 > h2 {
+    font-size: 38px;
+  }
+
+  #project-2 > p {
+    font-size: 20px;
+  }
+
+  #project-3 {
+    top: 520%;
+  }
+
+  #img-3 {
+    top: 530%;
+  }
+
+  #project-3 > h2 {
+    font-size: 38px;
+  }
+
+  #project-3 > p {
+    font-size: 20px;
+  }
+
+  #project-4 {
+    top: 620%;
+  }
+
+  #img-4 {
+    top: 630%;
+  }
+
+  #project-4 > h2 {
+    font-size: 38px;
+  }
+
+  #project-4 > p {
+    font-size: 20px;
+  }
+
+  #project-5 {
+    top: 720%;
+  }
+
+  #img-5 {
+    top: 730%;
+  }
+
+  #project-5 > h2 {
+    font-size: 38px;
+  }
+
+  #project-5 > p {
+    font-size: 20px;
+  }
+
+#footer {
+  top: 790%;
+  height: 12em;
+}
+
+}
