@@ -715,7 +715,7 @@ footer {
   }
 
   #header-links {
-    grid-column-gap: 0.7em;
+    grid-column-gap: 0.65em;
   }
 
   #header-links > a > li {
@@ -760,6 +760,6 @@ footer {
   }
 
   #code-hub {
-    top: 4.1em;
+    top: 4.2em;
   }
 }
