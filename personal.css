@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  background-color: gray;
+  background-color: blue;
   overflow-x: hidden;
 }
 
@@ -591,6 +591,10 @@ footer {
 
 footer {
   top: 710%;
+}
+
+body {
+  background-color: green;
 }
 }
 
