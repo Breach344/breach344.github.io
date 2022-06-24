@@ -812,4 +812,8 @@ footer {
   height: 12em;
 }
 
+body {
+  background-color: blue;
+}
+
 }
