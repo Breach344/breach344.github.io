@@ -694,3 +694,9 @@ footer {
   top: 955%;
 }
 }
+
+@media all and (max-width: 380px) {
+  #about {
+    color: red;
+  }
+}
