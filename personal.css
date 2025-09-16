@@ -912,8 +912,12 @@ footer {
 
 @media all and (max-width: 385px) {
  #header-links {
-   top: 20em;
+   top: 1em;
 }
+
+ #portfolio {
+  top: 185%;
+ }
 
   #about {
     top: 5%;
