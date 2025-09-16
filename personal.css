@@ -912,7 +912,7 @@ footer {
 
 @media all and (max-width: 385px) {
  #header-links {
-   top: 2em;
+   top: 20em;
 }
 
   #about {
