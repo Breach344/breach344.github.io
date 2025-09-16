@@ -910,7 +910,7 @@ footer {
 }
 }
 
-@media all and (max-width: 380px) {
+@media all and (max-width: 385px) {
  #header-links {
    top: 1em;
 }
@@ -970,15 +970,15 @@ footer {
   }
 
   #project-6 {
-    top: 1650%;
+    top: 1570%;
   }
 
   #img-6 {
-    top: 1650%;
+    top: 1570%;
   }
 
   footer {
-    top: 2000%;
+    top: 1930%;
     height: 8.3em;
   }
 
